@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Clock, Facebook, Instagram, MessageCircle } from "lucide-react";
-import logo from "@/assets/logo-kcw.png";
+
 
 export default function Footer() {
   return (
@@ -8,13 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12">
           {/* About */}
           <div>
-            <div className="flex items-center gap-3 mb-5">
-              <img src={logo} alt="Logo" className="w-12 h-12 rounded-lg object-cover" />
-              <div>
-                <p className="font-bold text-sm leading-tight">KSP RAKYAT</p>
-                <p className="text-xs font-semibold text-accent leading-tight">JAYA SENTOSA</p>
-              </div>
-            </div>
+            <h3 className="font-bold text-lg mb-5">KSP Rakyat Jaya Sentosa</h3>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               KSP Rakyat Jaya Sentosa adalah koperasi simpan pinjam yang berkomitmen memberikan layanan keuangan terbaik untuk kesejahteraan anggota dan masyarakat.
             </p>

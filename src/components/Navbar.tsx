@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo-kcw.png";
+
 
 const navLinks = [
   { label: "Beranda", href: "#beranda" },
@@ -40,11 +40,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         <a href="#beranda" className="flex items-center gap-3" onClick={() => handleClick("#beranda")}>
-          <img src={logo} alt="Logo KSP Rakyat Jaya Sentosa" className="h-12 w-12 rounded-lg object-cover" />
-          <div className="hidden sm:block">
-            <p className="text-sm font-bold text-primary leading-tight">KSP RAKYAT</p>
-            <p className="text-xs font-semibold text-secondary leading-tight">JAYA SENTOSA</p>
-          </div>
+          <span className="text-lg font-bold text-primary">KSP Rakyat Jaya Sentosa</span>
         </a>
 
         {/* Desktop */}
