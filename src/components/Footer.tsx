@@ -20,7 +20,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-primary-foreground/70">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-accent shrink-0 mt-0.5" />
-                Jl. Merdeka No. 123, Kelurahan Sukamaju, Kota Bandung, Jawa Barat 40123
+                Kavling Commercial International School II Nomor 8 BSD City, Jalan Foresta, Kelurahan Lengkong Kulon, Kecamatan Pagedangan, Kabupaten Tangerang, Banten
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-accent shrink-0" />
@@ -28,7 +28,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-accent shrink-0" />
-                info@koperasicerdaswaluyo.co.id
+                rakjatjayasentosa@gmail.com
               </li>
               <li className="flex items-center gap-3">
                 <Clock size={18} className="text-accent shrink-0" />
