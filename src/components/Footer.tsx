@@ -11,12 +11,12 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-5">
               <img src={logo} alt="Logo" className="w-12 h-12 rounded-lg object-cover" />
               <div>
-                <p className="font-bold text-sm leading-tight">KOPERASI</p>
-                <p className="text-xs font-semibold text-accent leading-tight">CERDAS WALUYO</p>
+                <p className="font-bold text-sm leading-tight">KSP RAKYAT</p>
+                <p className="text-xs font-semibold text-accent leading-tight">JAYA SENTOSA</p>
               </div>
             </div>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
-              Koperasi Cerdas Waluyo adalah koperasi simpan pinjam yang berkomitmen memberikan layanan keuangan terbaik untuk kesejahteraan anggota dan masyarakat.
+              KSP Rakyat Jaya Sentosa adalah koperasi simpan pinjam yang berkomitmen memberikan layanan keuangan terbaik untuk kesejahteraan anggota dan masyarakat.
             </p>
           </div>
 
@@ -71,7 +71,7 @@ export default function Footer() {
 
       <div className="border-t border-primary-foreground/10">
         <div className="container mx-auto px-4 py-5 text-center text-xs text-primary-foreground/40">
-          © 2026 Koperasi Cerdas Waluyo. Seluruh hak cipta dilindungi.
+          © 2026 KSP Rakyat Jaya Sentosa. Seluruh hak cipta dilindungi.
         </div>
       </div>
     </footer>

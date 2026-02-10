@@ -40,10 +40,10 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         <a href="#beranda" className="flex items-center gap-3" onClick={() => handleClick("#beranda")}>
-          <img src={logo} alt="Logo Koperasi Cerdas Waluyo" className="h-12 w-12 rounded-lg object-cover" />
+          <img src={logo} alt="Logo KSP Rakyat Jaya Sentosa" className="h-12 w-12 rounded-lg object-cover" />
           <div className="hidden sm:block">
-            <p className="text-sm font-bold text-primary leading-tight">KOPERASI</p>
-            <p className="text-xs font-semibold text-secondary leading-tight">CERDAS WALUYO</p>
+            <p className="text-sm font-bold text-primary leading-tight">KSP RAKYAT</p>
+            <p className="text-xs font-semibold text-secondary leading-tight">JAYA SENTOSA</p>
           </div>
         </a>
 
