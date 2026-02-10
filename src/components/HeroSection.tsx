@@ -19,14 +19,14 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 py-32 grid lg:grid-cols-2 gap-12 items-center relative z-10">
         <div className="animate-fade-up">
           <span className="inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-secondary/20 text-accent mb-6">
-            Koperasi Simpan Pinjam Terpercaya
+            KSP Rakyat Jaya Sentosa — Terpercaya
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-primary-foreground leading-tight mb-6">
             Solusi Keuangan Terpercaya untuk{" "}
             <span className="gradient-green-text">Masa Depan Cerah</span>
           </h1>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-lg leading-relaxed">
-            Koperasi Cerdas Waluyo — Simpan Pinjam yang Aman, Mudah, dan Menguntungkan untuk seluruh anggota keluarga.
+            KSP Rakyat Jaya Sentosa — Simpan Pinjam yang Aman, Mudah, dan Menguntungkan untuk seluruh anggota keluarga.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button variant="cta" size="lg" onClick={() => scrollTo("#kontak")}>

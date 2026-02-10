@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Budi Santoso",
     role: "Pedagang",
-    text: "Berkat pinjaman modal dari Koperasi Cerdas Waluyo, usaha saya bisa berkembang pesat. Prosesnya mudah dan bunganya sangat ringan.",
+    text: "Berkat pinjaman modal dari KSP Rakyat Jaya Sentosa, usaha saya bisa berkembang pesat. Prosesnya mudah dan bunganya sangat ringan.",
   },
   {
     name: "Siti Rahayu",
